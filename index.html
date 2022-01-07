@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>love travel</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="grid.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+  <div class="app" id="home">
+    <div class="header">
+      <div class="header-navbar">
+        <div class="grid wide">
+            <div class="header-nav">
+            <div class="header-nav__menu">
+              <i class="far fa-bars"></i>
+            </div>
+            <div class="header-nav__title">
+              <a href="#home"><p>love</p><span>travel</span></a>
+            </div>       
+              <ul class="header-nav__ul">
+                <button class="header-nav__close"><i class="fas fa-times"></i></button>
+                <li class="header-nav__list"><a href="#home" class="header-nav__link">Home</a></li>
+                <li class="header-nav__list"><a href="#about" class="header-nav__link scroll-link">about</a></li>
+                <li class="header-nav__list"><a href="#packages" class="header-nav__link scroll-link">packages</a></li>
+                <li class="header-nav__list"><a href="#destinations" class="header-nav__link scroll-link">destinations</a></li>
+                <li class="header-nav__list"><a href="#review" class="header-nav__link scroll-link">reviews</a></li>
+                <li class="header-nav__list"><a href="#services" class="header-nav__link scroll-link">services</a></li>
+                <li class="header-nav__list"><a href="#footer" class="header-nav__link scroll-link">contact</a></li>
+              </ul>
+            <div class="header-nav__icons">
+              <i class="fas fa-user" id="user-btn"></i>
+              <i class="fas fa-search" id="search-btn"></i>
+            </div>
+            <form action="" class="header-nav__search">
+              <div class="grid wide">
+                <div class="search__nav">
+                  <div class="search__input">
+                    <input type="search" name="" id="search-bar" class="search-nav" placeholder="Search here...">
+                    <div class="search-list__all">
+                    <div class="search-list">
+                      <ul>
+                        <li>
+                          <h3>${list}</h3>
+                          <i class="fas fa-edit list-edit"></i>
+                          <i class="fas fa-trash list-trash"></i>
+                       </li>
+                     </ul>
+                  </div>
+                      <div class="search-list__remove">
+                        <p>Remove all</p>
+                      </div>
+                    </div>
+                  </div>
+                  <label for="search-bar" class="search-icon">
+                    <i class="fas fa-search"></i>               
+                  </label>
+                </div>
+              </div>
+            </form>
+      <div class="user-modal">
+        <div class="login-form__container">
+           <div class="heading">
+                   <div class="btn userform-btn active login-btn">Login</div>
+                   <div class="btn userform-btn signup-btn">Sign up</div>
+                 </div> 
+      <form action="" method="POST" class="form userform active form-login" id="form-1">
+                             <div class="spacer"></div>
+                       <div class="form-group">
+            <label for="username" class="form-label">Username</label>
+            <input id="username" name="username" type="text" placeholder="Your username" class="form-control">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="password-log" class="form-label">Password</label>
+            <input id="password-log" name="password-log" type="password" placeholder="Your password" class="form-control password">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+          </div>
+
+          <button class="form-submit">Login</button>
+        </form>
+      <form action="" method="POST" class="form userform form-signup" id="form-2">
+                             <div class="spacer"></div>
+
+                       <div class="form-group">
+            <label for="fullname" class="form-label">Fullname</label>
+            <input id="fullname" name="fullname" type="text" placeholder="Your fullname" class="form-control">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+          </div>
+                       <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" class="form-control">
+              <i class="fas fa-exclamation-circle"></i>
+              <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+            <label for="password1" class="form-label">Password</label>
+            <input id="password1" name="password1" type="password" placeholder="Enter password" class="form-control">
+             <i class="fas fa-exclamation-circle"></i>
+             <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+          </div>
+
+           <div class="form-group">
+            <label for="password2" class="form-label">Repeat password</label>
+            <input id="password2" name="password2" type="password" placeholder="Your password" class="form-control">
+             <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <span class="form-message"></span>
+          </div>
+          <button class="form-submit">Sign up</button>
+        </form>
+    
+                </div>
+      </div>
+              </div>         
+          </div>
+        </div>
+      </div>
+    <div class="slider">
+        <div class="slider-wrapper">
+          <div class="slider-main">
+            <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/hoi-an-quang-nam-vntrip-1.jpg" alt="">
+          </div>
+          <span class="slider__discription">
+            <p class="city-name">Hoi An</p><p class="destination-name">old town</p>
+          </span>
+        </div>
+    <div class="manual__btn">
+           <button class="manual-btn manual-btn-left"><i class="fal fa-chevron-left"></i></button>
+           <button class="manual-btn manual-btn-right"><i class="fal fa-chevron-right"></i></button>
+    </div>
+        <ul class="slider-dots">
+          <li class="slider-dot active" data-index="0"></li>
+          <li class="slider-dot" data-index="1"></li>
+          <li class="slider-dot" data-index="2"></li>
+          <li class="slider-dot" data-index="3"></li>
+        </ul>
+      </div>
+    <div class="container">
+      <div class="container__content">
+        <div class="container__about" id="about">
+          <div class="section__heading">
+            <h2 class="section__heading-title">about us</h2>
+            <p class="section__heading-discription">take a look at our story</p>
+          </div>
+          <div class="grid wide">
+               <div class="container__about-content">
+                 <div class="container__about-text">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus. Sed finibus, magna at euismod aliquet, enim justo vulputate lorem, sit amet elementum dolor eros sollicitudin dui. Sed ac magna mauris. Nullam lectus odio, viverra vel mi id, interdum imperdiet nulla.</p>
+               </div>
+              <div class="container__about-milestones">
+                <img src="https://vietnamdiscovery.com/wp-content/uploads/2020/08/Mountains-in-Vietnam.jpg" alt="">
+                <div class="container__about-milestone-wrapper">
+                  <div class="container__about-milestone">
+                  <div class="about-milestone__icon">
+                    <img src="https://preview.colorlib.com/theme/destino/images/milestone_1.svg" alt="">
+                  </div>
+                  <div class="about-milestone__counter about-milestone__counter--mountain">17</div>
+                  <p class="about-milestone__text">mountains climbed</p>
+                </div> 
+                <div class="container__about-milestone">
+                  <div class="about-milestone__icon">
+                    <img src="https://preview.colorlib.com/theme/destino/images/milestone_2.svg" alt="">
+                  </div>
+                  <div class="about-milestone__counter about-milestone__counter--island">213</div>
+                  <p class="about-milestone__text">islands visited</p>
+                </div> 
+                <div class="container__about-milestone">
+                  <div class="about-milestone__icon">
+                    <img src="https://preview.colorlib.com/theme/destino/images/milestone_3.svg" alt="">
+                  </div>
+                  <div class="about-milestone__counter about-milestone__counter--photo">11923</div>
+                  <p class="about-milestone__text">photos taken</p>
+                </div> 
+                <div class="container__about-milestone">
+                  <div class="about-milestone__icon">
+                    <img src="https://preview.colorlib.com/theme/destino/images/milestone_4.svg" alt="">
+                  </div>
+                  <div class="about-milestone__counter about-milestone__counter--cruise">50</div>
+                  <p class="about-milestone__text">cruises organized</p>
+                </div> 
+                </div>
+              </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      <div class="container__packages" id="packages">
+        
+          <div class="section__heading">
+            <h2 class="section__heading-title">our packages</h2>
+            <p class="section__heading-discription">BEST TRAVEL PACKAGES AVAILABLE</p>
+          </div>
+          <div class="container__places">
+            <div class="grid wide">
+              <div class="row">
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/ho-chi-minh-city/tours/pagePropertiesImage/ho-chi-minh-tour.jpg.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">ho chi minh</a>
+                    </div>
+                    <div class="container__place-type container__place-type-HCM">
+                      <a href="">Recreation</a>
+                      <a href="">Sport</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>This tour will you to visit historic sites like the Reunification Palace and colonial landmarks like the Notre Dame Cathedral with plenty of time to shop at the Binh Tay Market.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price">
+                      <p>700$</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/0e/18/92.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">Da Nang</a>
+                    </div>
+                    <div class="container__place-type container__place-type-DN">
+                      <a href="">Nature</a>
+                      <a href="">Resort</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>There are a lot of beautiful and interesting attractions in Da nang that appeal to tourists in over the world such as Son Tra Peninsula, My Khe beach, and famous bridges, etc.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price container__place-price-2">
+                      <p>1000$</p>
+                      <p>700$</p>
+                    </div>
+                    <a href="" class="container__place-sale">sale</a>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="https://d13jio720g7qcs.cloudfront.net/images/guides/origin/5f33646335c61.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">hoi an</a>
+                    </div>
+                    <div class="container__place-type container__place-type-HA">
+                      <a href="">culture</a>
+                      <a href="">performance</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>Radiating old charm and bountiful architecture, this once-sleepy town has risen above its trading port roots to become a UNESCO World Heritage site, dotted with a cacophony of narrow streets, old-style shophouses, art galleries, and food streets.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price">
+                      <p>400$</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="https://bigvn.blog/dp/wp-content/uploads/2018/07/ha-noi-co-bao-nhieu-quan8-1.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">ha noi</a>
+                    </div>
+                    <div class="container__place-type container__place-type-HN">
+                      <a href="">history</a>
+                      <a href="">recreation</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>Have a great opportunity to visit the most famous spots in Hanoi with our experienced tour guide; enjoy tasty lunch in a local restaurant of Hanoi Old Quarter; know more about Hanoi people and their daily life.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price">
+                      <p>500$</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="https://pystravel.vn/uploads/posts/albums/3363/b334a9bdbe8b20729b99804b44b3df74.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">ha long</a>
+                    </div>
+                    <div class="container__place-type container__place-type-HL">
+                      <a href="">culture</a>
+                      <a href="">nature</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>Halong Bay as known as a UNESCO World Heritage Site is famous because its stunning limestone mountains raising up from emerald waters that formed from thousand years ago.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price">
+                      <p>900$</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 c-12">
+                  <div class="container__place">
+                    <img src="https://vnn-imgs-f.vgcloud.vn/2020/05/21/17/bi-kip-du-lich-sapa-ngon-bo-re-he-nay.jpg" alt="" class="container__place-img">
+                    <div class="container__place-name">
+                      <a href="">sapa</a>
+                    </div>
+                    <div class="container__place-type container__place-type-SP">
+                      <a href="">Experience</a>
+                      <a href="">culture</a>
+                    </div>
+                    <div class="container__place-discription">
+                      <p>This quiet Vietnamese town is home to different ethnic tribal groups. There are five main ethnic groups in Sapa: the Hmong, Dao, Tay, Giay and Xa Pho.</p>
+                    </div>
+                    <button class="btn container__place-btn">details</button>
+                    <div class="container__place-price container__place-price-2">
+                        <p>600$</p>
+                        <p>400$</p>
+                    </div>
+                    <a href="" class="container__place-sale">sale</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__add">
+            <a href="" class="container__add-link">all packages</a>
+            <a href="" class="container__add-link">promotions</a>
+          </div>
+      </div>
+          <div class="container__tour">
+            <img src="https://www.citypassguide.com/media/slideshow/banner-phu-quoc.jpg.1758x854_q85_crop.jpg" alt="">
+            <div class="container__tour-discription">
+              <p>summer promotion</p>
+              <p>phu quoc island tour</p>
+              <p>1000 $ for person - 6 nights</p>
+              <a href="">more details</a>
+          </div>
+        </div>
+          <div class="container__destination" id="destinations">
+            <div class="section__heading">
+            <h2 class="section__heading-title">our destinations</h2>
+            <p class="section__heading-discription">choose your next destination</p>
+          </div>
+            <div class="container__destination-places">
+              <div class="grid wide">
+                  <div class="container__destinations">
+                    <div class="container__destination-places-wrapper">
+                     <div class="destination__wrapper-place">
+                       <img src="https://asianwaytravel.com/wp-content/uploads/2018/11/tnung-lake.jpg" alt="" draggable="false">
+                       <div class="destination__wrapper-place-content">
+                         <h2>yen bai</h2>
+                         <p>available</p>
+                       </div>
+                     </div>
+                    </div>
+                    <div class="destination-controls hide-on-mobile">
+                        <button class="destination-control destination-control--left">
+                          <i class="fas fa-arrow-circle-left"></i>
+                        </button>
+                        <button class="destination-control destination-control--right">
+                          <i class="fas fa-arrow-circle-right"></i>
+                        </button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__article" id="review">
+            <div class="section__heading">
+            <h2 class="section__heading-title">articles & news</h2>
+            <p class="section__heading-discription">from the blog</p>
+          </div>
+            <div class="container__articles">
+              <div class="grid wide">
+                <div class="row">
+                  <div class="container__article-left col l-4 c-0 m-0">
+                    <div class="container__article-left-content">
+                      <h2>our proposals</h2>
+                      <p>Is travel to Vietnam convenient? Sure, we even made Vietnam Visa on arrival. All of our arrangements made by a local man and our best friend-our online tour operator Indochinavalue.com. Moving around the country with our local guide is very easy and enjoyable. It is safe even the traffic is crazy.</p>
+                      <button>our blog</button>
+                    </div>
+                  </div>
+                  <div class="container__article-right col l-8">
+                    <div class="row sm-gutter container__article-right-list">
+                      <div class="col l-6 m-6 c-12 container__article-right-item">
+                        <img src="https://danangfantasticity.com/wp-content/uploads/2019/10/faifo-coffee-review-kinh-nghiem-kham-pha-hoi-an-chi-trong-1-ngay-danang-fantasticity-com-01.jpg" alt="" class="container__article-right-img">
+                        <div class="container__article-right-content">
+                          <p class="container__article-right-tip">our news</p>
+                          <h4 class="container__article-right-tip-heading">travel events</h4>
+                          <p class="container__article-right-tip-body">This place is so different than all the others, many cultural stuffs that are very good to learn and discover. Hoi An Discovery Tour is a comfortable one that anyone could join. You will get to know so much more about history of this place and the value of it. Beautiful at night! The atmosphere is unique!</p>
+                          <div class="container__article-right-tip-rating">
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                          </div>
+                          <button class="container__article-right-tip-btn">read more</button>
+                        </div>
+                      </div>
+                      <div class="col l-6 m-6 c-12 container__article-right-item">
+                        <img src="https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/06_2020/kien-truc-da-lat-view-cafe.jpg" class="container__article-right-img">
+                        <div class="container__article-right-content container__article-right-content-DL">
+                          <p class="container__article-right-tip">travel tips</p>
+                          <h4 class="container__article-right-tip-heading">new routines</h4>
+                          <p class="container__article-right-tip-body">The 3 guides were very friendly, knowledgeable and spoke well English. Me and my girlfriend had a great time, feeling relaxed under their guidance and supervision. Before going to the river, we had a cozy lunch at a local’s home. They took multiple photos and videos and posted it afterwards on their Facebook page, check it out! At the end of the trip we received towels, tea and a cookie. I would definitely recommend them</p>
+                          <div class="container__article-right-tip-rating">
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                          </div>
+                          <button class="container__article-right-tip-btn">read more</button>
+                        </div>
+                      </div>
+                      <div class="col l-6 m-6 c-12 container__article-right-item">
+                        <img src="https://dataco.top/wp-content/uploads/2020/02/review-da-nang-3-ngay-9.jpg" class="container__article-right-img">
+                        <div class="container__article-right-content container__article-right-content-DN">
+                          <p class="container__article-right-tip">our news</p>
+                          <h4 class="container__article-right-tip-heading">best beach</h4>
+                          <p class="container__article-right-tip-body">The long beach with the undulating waves are an irresistible spot for you to stay and enjoy both sports or mere sun-bath!
+The proximate location to seafood restaurants and bars let you devour the delicious food and recline to enjoy the happy hours.</p>
+<div class="container__article-right-tip-rating">
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <button class="container__article-right-tip-btn">read more</button>
+                        </div>
+                      </div>
+                      <div class="col l-6 m-6 c-12 container__article-right-item">
+                        <img src="https://haloninhbinh.com/wp-content/uploads/2020/04/TrangAn-review-ninh-binh-2-ngay-1-dem-3.jpg" alt="" class="container__article-right-img">
+                        <div class="container__article-right-content">
+                          <p class="container__article-right-tip">travel tip</p>
+                          <h4 class="container__article-right-tip-heading">love travel</h4>
+                          <p class="container__article-right-tip-body">Trang An grottoes which is a gathering of 31 valleys, 50 cross-water caves, and home to 600 kinds of flora and over 200 kinds of fauna, many of them in the Red Book of Vietnam.</p>
+                          <div class="container__article-right-tip-rating">
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star container__article-right-tip-rating--checked"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <button class="container__article-right-tip-btn">read more</button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container__services" id="services">
+            <div class="section__heading">
+              <h2 class="section__heading-title">popular services</h2>
+              <p class="section__heading-discription">take a look at these offers</p>
+            </div>
+            <div class="services-contents">
+              <div class="grid wide">
+                <div class="row">
+                  <div class="col l-4 m-12 c-12">
+                    <div class="services-content">
+                      <div class="services-content__title">
+                        <div class="services-content__title-img">
+                          <img src="https://icons.veryicon.com/png/o/leisure/travel-series/travel-tourism_sunbe.png" alt="">
+                        </div>
+                        <div class="services-content__title-text">
+                          <p>Weekend trips</p>
+                        </div>
+                        <button class="services-content__title-btn">
+                          <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                        </button>
+                      </div>
+                      <div class="services-content__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.</p>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="col l-4 m-12 c-12">
+                    <div class="services-content">
+                      <div class="services-content__title">
+                        <div class="services-content__title-img">
+                          <img src="https://www.pinclipart.com/picdir/big/37-374081_travel-svg-clipart.png" alt="">
+                        </div>
+                        <div class="services-content__title-text">
+                          <p>Fun leisure trips</p>
+                        </div>
+                        <button class="services-content__title-btn">
+                          <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                        </button>
+                      </div>
+                      <div class="services-content__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.</p>
+                      </div>
+                     </div>
+                  </div>
+                  <div class="col l-4 m-12 c-12">
+                    <div class="services-content">
+                      <div class="services-content__title">
+                        <div class="services-content__title-img">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmkN25nGhE-9T-uWMReq0T6y1DQTLfc7YHI4FTgCsz4qTxEms4CmInMcJok87rAtUChuk&usqp=CAU" alt="">
+                        </div>
+                        <div class="services-content__title-text">
+                          <p>Plane tickets</p>
+                        </div>
+                        <button class="services-content__title-btn">
+                          <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                        </button>
+                      </div>
+                      <div class="services-content__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.</p>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="services-video">
+              <video src="./placesVN.mp4" class="services-video-view"></video>
+                <div class="services-video-player__controls">
+                  <button class="services-video-player__toggle-btn">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <div class="services-video-player__time"></div>
+                  <div class="services-video-player__progress">
+                    <div class="services-video-player__progress-filled">
+                      <div class="services-video-player__progress-filled-block"></div>
+                    </div>
+                  </div>
+                  <div class="services-video-player__buttons">
+                    <button data-skip="-5" class="services-video-player__button">« 5s</button>
+                    <button data-skip="5" class="services-video-player__button">5s »</button>
+                  </div>
+                  <div class="services-video-player__volume">
+                    <i class="fas fa-volume" id="video-volume"></i>
+                    <input type="range" min="0" max="1" value="0.1" step="0.05" class="services-video-player__volume-control" name="" id="">
+                    <div class="services-video-player__volume-block"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+<!--     </div> -->
+    <div class="footer" id="footer">
+      <div class="footer-container">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="footer__list">
+          <li>phone support</li>
+          <li>24 hours a day</li>
+          <li><a href="tel: +84 345 647 745">+84 345 647 745</a></li>
+        </ul>
+        <ul class="footer__list">
+          <li>connect with us</li>
+          <li>social media chanels</li>
+          <li>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-pinterest-p"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li>newsletter</li>
+          <li>sign up for special offer</li>
+          <li>
+            <input type="text" name="" id="email2" placeholder="Email">
+            <input type="submit" name="" value="subscribe" class="subscribe">
+          </li>
+        </ul>
+      </div>
+    </div>
+  <a href="#home" class="scroll-link top-link">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

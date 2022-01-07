@@ -1,0 +1,149 @@
+/* Base.css */
+:root {
+  --primary-color: #003f7c;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #5e6d81;
+  --border-color: #dfdfec;
+  --red-color: rgba(224, 6, 6, 0.8);
+  --green-color: #059862;
+  --discription-color: #a4a4a4;
+  --border-color: #d6d6c2;
+  --orange-color: #f98d3e;
+  --blue-color: rgb(20, 185, 213);
+  --pink-color: #ff6666;
+  --dark-green-color: #009933;
+  --text-hover-color: #ebebe0;
+  --star-gold-color: #ffce3d;
+
+  --header-height: 74px;
+  --form-height: 56px;
+  --scroll-width: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.section__heading {
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.section__heading-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text-color);
+  margin-bottom: 24px;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.section__heading-discription {
+  color: var(--discription-color);
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+}
+
+.section__heading-discription:after {
+  content: "";
+  display: block;
+  background-color: var(--border-color);
+  margin-top: 20px;
+  height: 4px;
+  width: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+@keyframes moveInto {
+  from {
+    top: 8vw;
+    opacity: 0;
+  }
+  to {
+    top: 4vw;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    top: 20%;
+  }
+  to {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  0%,
+  100% {
+    width: 0;
+  }
+  20%,
+  95% {
+    width: 100%;
+  }
+}
+
+@keyframes slideLeftRight {
+  0%,
+  100% {
+    left: -100%;
+  }
+  50% {
+    left: 200%;
+  }
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  50% {
+    background-position-x: 500px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes bounceUp {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* End: Base.css */
